@@ -5,11 +5,12 @@ html {
 .flag-optional {
   color: #999;
 }
+
 .is-validated input:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before,
 .is-validated:invalid,
-.is-validated[type="checkbox"]:invalid + label::before; {
-  border-color:#f33;
+.is-validated[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
 }
 
 .error-message {
